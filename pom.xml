@@ -41,6 +41,20 @@
         </dependency>
 
     </dependencies>
+         <distributionManagement>
+   <repository>
+      <id>nexus</id>
+      <name>cucumber-2</name>
+      <url>http://3.27.244.10:8081/repository/cucumber-2/</url>
+   </repository>
+   <snapshotRepository>
+      <id>nexus</id>
+      <name>cucumber</name>
+      <url>http://3.27.244.10:8081/repository/cucumber/</url>
+    </snapshotRepository>
+     
+</distributionManagement>
+
 
     
 </project>
